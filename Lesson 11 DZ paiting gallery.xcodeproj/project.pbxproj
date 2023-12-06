@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC0F0902ACC353800761739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F08F2ACC353800761739 /* AppDelegate.swift */; };
+		EDC0F0922ACC353800761739 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0912ACC353800761739 /* SceneDelegate.swift */; };
+		EDC0F0942ACC353800761739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0932ACC353800761739 /* ViewController.swift */; };
+		EDC0F0972ACC353800761739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC0F0952ACC353800761739 /* Main.storyboard */; };
+		EDC0F0992ACC353A00761739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC0F0982ACC353A00761739 /* Assets.xcassets */; };
+		EDC0F09C2ACC353A00761739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC0F09A2ACC353A00761739 /* LaunchScreen.storyboard */; };
+		EDC0F0A72ACC353A00761739 /* Lesson_11_DZ_paiting_galleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0A62ACC353A00761739 /* Lesson_11_DZ_paiting_galleryTests.swift */; };
+		EDC0F0B12ACC353A00761739 /* Lesson_11_DZ_paiting_galleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0B02ACC353A00761739 /* Lesson_11_DZ_paiting_galleryUITests.swift */; };
+		EDC0F0B32ACC353A00761739 /* Lesson_11_DZ_paiting_galleryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC0F0B22ACC353A00761739 /* Lesson_11_DZ_paiting_galleryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDC0F0A32ACC353A00761739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC0F0842ACC353800761739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC0F08B2ACC353800761739;
+			remoteInfo = "Lesson 11 DZ paiting gallery";
+		};
+		EDC0F0AD2ACC353A00761739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC0F0842ACC353800761739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC0F08B2ACC353800761739;
+			remoteInfo = "Lesson 11 DZ paiting gallery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDC0F08C2ACC353800761739 /* Lesson 11 DZ paiting gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 11 DZ paiting gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0F08F2ACC353800761739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDC0F0912ACC353800761739 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDC0F0932ACC353800761739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDC0F0962ACC353800761739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC0F0982ACC353A00761739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC0F09B2ACC353A00761739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC0F09D2ACC353A00761739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC0F0A22ACC353A00761739 /* Lesson 11 DZ paiting galleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 11 DZ paiting galleryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0F0A62ACC353A00761739 /* Lesson_11_DZ_paiting_galleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_11_DZ_paiting_galleryTests.swift; sourceTree = "<group>"; };
+		EDC0F0AC2ACC353A00761739 /* Lesson 11 DZ paiting galleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 11 DZ paiting galleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC0F0B02ACC353A00761739 /* Lesson_11_DZ_paiting_galleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_11_DZ_paiting_galleryUITests.swift; sourceTree = "<group>"; };
+		EDC0F0B22ACC353A00761739 /* Lesson_11_DZ_paiting_galleryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_11_DZ_paiting_galleryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC0F0892ACC353800761739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0F09F2ACC353A00761739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0F0A92ACC353A00761739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC0F0832ACC353800761739 = {
+			isa = PBXGroup;
+			children = (
+				EDC0F08E2ACC353800761739 /* Lesson 11 DZ paiting gallery */,
+				EDC0F0A52ACC353A00761739 /* Lesson 11 DZ paiting galleryTests */,
+				EDC0F0AF2ACC353A00761739 /* Lesson 11 DZ paiting galleryUITests */,
+				EDC0F08D2ACC353800761739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC0F08D2ACC353800761739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0F08C2ACC353800761739 /* Lesson 11 DZ paiting gallery.app */,
+				EDC0F0A22ACC353A00761739 /* Lesson 11 DZ paiting galleryTests.xctest */,
+				EDC0F0AC2ACC353A00761739 /* Lesson 11 DZ paiting galleryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC0F08E2ACC353800761739 /* Lesson 11 DZ paiting gallery */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0F08F2ACC353800761739 /* AppDelegate.swift */,
+				EDC0F0912ACC353800761739 /* SceneDelegate.swift */,
+				EDC0F0932ACC353800761739 /* ViewController.swift */,
+				EDC0F0952ACC353800761739 /* Main.storyboard */,
+				EDC0F0982ACC353A00761739 /* Assets.xcassets */,
+				EDC0F09A2ACC353A00761739 /* LaunchScreen.storyboard */,
+				EDC0F09D2ACC353A00761739 /* Info.plist */,
+			);
+			path = "Lesson 11 DZ paiting gallery";
+			sourceTree = "<group>";
+		};
+		EDC0F0A52ACC353A00761739 /* Lesson 11 DZ paiting galleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0F0A62ACC353A00761739 /* Lesson_11_DZ_paiting_galleryTests.swift */,
+			);
+			path = "Lesson 11 DZ paiting galleryTests";
+			sourceTree = "<group>";
+		};
+		EDC0F0AF2ACC353A00761739 /* Lesson 11 DZ paiting galleryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC0F0B02ACC353A00761739 /* Lesson_11_DZ_paiting_galleryUITests.swift */,
+				EDC0F0B22ACC353A00761739 /* Lesson_11_DZ_paiting_galleryUITestsLaunchTests.swift */,
+			);
+			path = "Lesson 11 DZ paiting galleryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC0F08B2ACC353800761739 /* Lesson 11 DZ paiting gallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC0F0B62ACC353A00761739 /* Build configuration list for PBXNativeTarget "Lesson 11 DZ paiting gallery" */;
+			buildPhases = (
+				EDC0F0882ACC353800761739 /* Sources */,
+				EDC0F0892ACC353800761739 /* Frameworks */,
+				EDC0F08A2ACC353800761739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lesson 11 DZ paiting gallery";
+			productName = "Lesson 11 DZ paiting gallery";
+			productReference = EDC0F08C2ACC353800761739 /* Lesson 11 DZ paiting gallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC0F0A12ACC353A00761739 /* Lesson 11 DZ paiting galleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC0F0B92ACC353A00761739 /* Build configuration list for PBXNativeTarget "Lesson 11 DZ paiting galleryTests" */;
+			buildPhases = (
+				EDC0F09E2ACC353A00761739 /* Sources */,
+				EDC0F09F2ACC353A00761739 /* Frameworks */,
+				EDC0F0A02ACC353A00761739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC0F0A42ACC353A00761739 /* PBXTargetDependency */,
+			);
+			name = "Lesson 11 DZ paiting galleryTests";
+			productName = "Lesson 11 DZ paiting galleryTests";
+			productReference = EDC0F0A22ACC353A00761739 /* Lesson 11 DZ paiting galleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDC0F0AB2ACC353A00761739 /* Lesson 11 DZ paiting galleryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC0F0BC2ACC353A00761739 /* Build configuration list for PBXNativeTarget "Lesson 11 DZ paiting galleryUITests" */;
+			buildPhases = (
+				EDC0F0A82ACC353A00761739 /* Sources */,
+				EDC0F0A92ACC353A00761739 /* Frameworks */,
+				EDC0F0AA2ACC353A00761739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC0F0AE2ACC353A00761739 /* PBXTargetDependency */,
+			);
+			name = "Lesson 11 DZ paiting galleryUITests";
+			productName = "Lesson 11 DZ paiting galleryUITests";
+			productReference = EDC0F0AC2ACC353A00761739 /* Lesson 11 DZ paiting galleryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC0F0842ACC353800761739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EDC0F08B2ACC353800761739 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					EDC0F0A12ACC353A00761739 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EDC0F08B2ACC353800761739;
+					};
+					EDC0F0AB2ACC353A00761739 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EDC0F08B2ACC353800761739;
+					};
+				};
+			};
+			buildConfigurationList = EDC0F0872ACC353800761739 /* Build configuration list for PBXProject "Lesson 11 DZ paiting gallery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC0F0832ACC353800761739;
+			productRefGroup = EDC0F08D2ACC353800761739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC0F08B2ACC353800761739 /* Lesson 11 DZ paiting gallery */,
+				EDC0F0A12ACC353A00761739 /* Lesson 11 DZ paiting galleryTests */,
+				EDC0F0AB2ACC353A00761739 /* Lesson 11 DZ paiting galleryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC0F08A2ACC353800761739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0F09C2ACC353A00761739 /* LaunchScreen.storyboard in Resources */,
+				EDC0F0992ACC353A00761739 /* Assets.xcassets in Resources */,
+				EDC0F0972ACC353800761739 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0F0A02ACC353A00761739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0F0AA2ACC353A00761739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC0F0882ACC353800761739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0F0942ACC353800761739 /* ViewController.swift in Sources */,
+				EDC0F0902ACC353800761739 /* AppDelegate.swift in Sources */,
+				EDC0F0922ACC353800761739 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0F09E2ACC353A00761739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0F0A72ACC353A00761739 /* Lesson_11_DZ_paiting_galleryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC0F0A82ACC353A00761739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC0F0B32ACC353A00761739 /* Lesson_11_DZ_paiting_galleryUITestsLaunchTests.swift in Sources */,
+				EDC0F0B12ACC353A00761739 /* Lesson_11_DZ_paiting_galleryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDC0F0A42ACC353A00761739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC0F08B2ACC353800761739 /* Lesson 11 DZ paiting gallery */;
+			targetProxy = EDC0F0A32ACC353A00761739 /* PBXContainerItemProxy */;
+		};
+		EDC0F0AE2ACC353A00761739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC0F08B2ACC353800761739 /* Lesson 11 DZ paiting gallery */;
+			targetProxy = EDC0F0AD2ACC353A00761739 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDC0F0952ACC353800761739 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC0F0962ACC353800761739 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC0F09A2ACC353A00761739 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC0F09B2ACC353A00761739 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC0F0B42ACC353A00761739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDC0F0B52ACC353A00761739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC0F0B72ACC353A00761739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 11 DZ paiting gallery/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-11-DZ-paiting-gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC0F0B82ACC353A00761739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lesson 11 DZ paiting gallery/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-11-DZ-paiting-gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDC0F0BA2ACC353A00761739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-11-DZ-paiting-galleryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 11 DZ paiting gallery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 11 DZ paiting gallery";
+			};
+			name = Debug;
+		};
+		EDC0F0BB2ACC353A00761739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-11-DZ-paiting-galleryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lesson 11 DZ paiting gallery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lesson 11 DZ paiting gallery";
+			};
+			name = Release;
+		};
+		EDC0F0BD2ACC353A00761739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-11-DZ-paiting-galleryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 11 DZ paiting gallery";
+			};
+			name = Debug;
+		};
+		EDC0F0BE2ACC353A00761739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X63LH99G7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "classes.Lesson-11-DZ-paiting-galleryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lesson 11 DZ paiting gallery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC0F0872ACC353800761739 /* Build configuration list for PBXProject "Lesson 11 DZ paiting gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0F0B42ACC353A00761739 /* Debug */,
+				EDC0F0B52ACC353A00761739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC0F0B62ACC353A00761739 /* Build configuration list for PBXNativeTarget "Lesson 11 DZ paiting gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0F0B72ACC353A00761739 /* Debug */,
+				EDC0F0B82ACC353A00761739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC0F0B92ACC353A00761739 /* Build configuration list for PBXNativeTarget "Lesson 11 DZ paiting galleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0F0BA2ACC353A00761739 /* Debug */,
+				EDC0F0BB2ACC353A00761739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC0F0BC2ACC353A00761739 /* Build configuration list for PBXNativeTarget "Lesson 11 DZ paiting galleryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC0F0BD2ACC353A00761739 /* Debug */,
+				EDC0F0BE2ACC353A00761739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC0F0842ACC353800761739 /* Project object */;
+}
